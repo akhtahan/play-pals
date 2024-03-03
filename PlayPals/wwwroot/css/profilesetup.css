@@ -1,0 +1,159 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+#childAge{
+    font-size: 19px;
+} 
+
+#childs{
+    font-size: 19px;
+}
+
+.container {
+    flex-grow: 1; 
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+       
+        .title {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+       
+        .question {
+            margin-bottom: 40px;
+            font-size: 19px;
+        }
+
+       
+        input[type="number"],
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-top: 5px;
+            font-size: 19px;
+        }
+
+       
+        .dropdown-container {
+            margin-bottom: 20px;
+            font-size: 19px;
+        }
+
+       
+        .dropdown {
+            position: relative;
+        }
+
+       
+        .dropdown .dropdown-button {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+            cursor: pointer;
+            margin-bottom: 10px; 
+        }
+
+       
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            min-width: 120px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+        }
+
+       
+        .dropdown-content img {
+            width: 50px;
+            height: auto;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+
+        
+        .dropdown.active .dropdown-content {
+            display: block;
+        }
+
+        
+        .selected-avatar {
+            text-align: center;
+        }
+
+        .selected-avatar img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+       
+.save-profile-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: block; 
+    margin: 0 auto; 
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.save-profile-button:hover {
+    background-color: #45a049;
+}
+
+    .tag-input {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tag {
+        background-color: #f2f2f2;
+        color: #333;
+        border-radius: 3px;
+        padding: 3px 8px;
+        margin: 3px;
+        display: flex;
+        align-items: center;
+    }
+    .tag span {
+        margin-right: 5px;
+    }
+    .tag button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        margin-left: 5px;
+        font-size: 12px;
+    }
