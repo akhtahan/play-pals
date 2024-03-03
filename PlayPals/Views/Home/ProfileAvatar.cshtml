@@ -1,0 +1,267 @@
+ @{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set up Profile</title>
+    <style>
+        
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+#childAge{
+    font-size: 19px;
+} 
+
+#childs{
+    font-size: 19px;
+}
+
+.container {
+    flex-grow: 1; 
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+       
+        .title {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+       
+        .question {
+            margin-bottom: 40px;
+            font-size: 19px;
+        }
+
+       
+        input[type="number"],
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-top: 5px;
+            font-size: 19px;
+        }
+
+       
+        .dropdown-container {
+            margin-bottom: 20px;
+            font-size: 19px;
+        }
+
+       
+        .dropdown {
+            position: relative;
+        }
+
+       
+        .dropdown .dropdown-button {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+            cursor: pointer;
+            margin-bottom: 10px; 
+        }
+
+       
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            min-width: 120px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+        }
+
+       
+        .dropdown-content img {
+            width: 50px;
+            height: auto;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+
+        
+        .dropdown.active .dropdown-content {
+            display: block;
+        }
+
+        
+        .selected-avatar {
+            text-align: center;
+        }
+
+        .selected-avatar img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+       
+.save-profile-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: block; 
+    margin: 0 auto; 
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.save-profile-button:hover {
+    background-color: #45a049;
+}
+
+    .tag-input {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tag {
+        background-color: #f2f2f2;
+        color: #333;
+        border-radius: 3px;
+        padding: 3px 8px;
+        margin: 3px;
+        display: flex;
+        align-items: center;
+    }
+    .tag span {
+        margin-right: 5px;
+    }
+    .tag button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="title">Set up Profile</div>
+
+    <div class="question">
+        <div class="dropdown-container">
+            <div class="dropdown" onclick="toggleDropdown()">
+                <div class="dropdown-button">Select Avatar</div>
+                <div class="dropdown-content">
+                    <img src="/Images/giraffe.png" alt="Avatar 1" onclick="selectAvatar(this)">
+                    <img src="/Images/cow.png" alt="Avatar 2" onclick="selectAvatar(this)">
+                    <img src="/Images/elephant.png" alt="Avatar 3" onclick="selectAvatar(this)">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="selected-avatar">
+        <img id="selectedAvatar" src="" alt="Selected Avatar">
+    </div>
+
+        <label id="childs" for="childAge">Select Child's Age:</label>
+        <select id="childAge" name="childAge">
+            <option value="">Select Age</option>
+            @for (int age = 1; age <= 12; age++)
+            {
+                <option value="@age">@age</option>
+            }
+        </select>
+
+    <label for="hobbies">Enter Hobbies:</label>
+    <div class="tag-input" id="tagInput">
+    <input type="text" id="tagInputField" placeholder="Enter hobbies...">
+    </div>
+   
+
+    <label for="interests">Enter Interests:</label>
+    <div class="tag-input" id="tagInput">
+    <input type="text" id="interestsInputField" placeholder="Enter interests...">
+    </div>
+
+    <button class="save-profile-button" onclick="saveProfile()">Save Profile</button>
+</div>
+
+<script>
+    function toggleDropdown() {
+        var dropdown = document.querySelector('.dropdown');
+        dropdown.classList.toggle('active');
+    }
+
+    function selectAvatar(element) {
+        var selectedAvatar = document.getElementById('selectedAvatar');
+        selectedAvatar.src = element.src;
+    }
+
+    function saveProfile() {
+        alert('Profile saved!');
+    }
+
+        const tagInput = document.getElementById('tagInput');
+    const tagInputField = document.getElementById('tagInputField');
+
+    tagInputField.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter' && this.value.trim() !== '') {
+            addTag(this.value.trim());
+            this.value = ''; 
+        }
+    });
+
+    function addTag(text) {
+        const tag = document.createElement('div');
+        tag.classList.add('tag');
+        tag.innerHTML = `<span>${text}</span><button onclick="removeTag(this)">X</button>`;
+        tagInput.insertBefore(tag, tagInputField);
+    }
+
+    function removeTag(tag) {
+        tag.parentNode.remove();
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

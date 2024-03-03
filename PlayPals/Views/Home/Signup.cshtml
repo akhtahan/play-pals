@@ -1,0 +1,53 @@
+ @{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/css/signup.css">
+    <title>Login Page</title>
+    </head>
+
+<body>
+<div class="container">
+    <div class="left-side">
+        <div class="logo-container">
+            <img src="/Images/playpalslogo.png" alt="Image" style="width: 400px; height: auto; margin-bottom: 20px;">
+
+        </div>
+        <div class="text-container">
+            <h2 id="welcome" >Welcome To PlayPals!</h2>
+            <p>Sign up to start matching with friends!</p>
+        </div>
+    </div>
+<div class="right-side">
+    <div class="login-form">
+        <h2>Sign Up</h2>
+        <form method="post" action="ProfileAvatar">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter email"required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter password"required>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Re-enter password" required>
+            </div>
+
+              <div class="form-group">
+                <input type="submit" value="Create Account">
+            </div>
+
+            <p><a href="Login">Already have an account? Login</a></p>
+        </form>
+    </div>
+</div>
+
+</div>
+</body> 
+</html>
