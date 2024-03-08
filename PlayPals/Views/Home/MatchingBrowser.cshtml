@@ -1,0 +1,49 @@
+@{
+    ViewData["Title"] = "Matching Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matching Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="matches-container">
+            <h2>Find Your Match</h2>
+            <button id="browseMatches">Browse Matches</button>
+            <div id="matchesList" class="matches-list"></div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('browseMatches').addEventListener('click', function() {
+            const matchesList = document.getElementById('matchesList');
+            matchesList.innerHTML = ''; 
+
+            // Example matches data
+            const matches = [
+                { id: 1, name: "Alex", interests: "Hiking, Reading" },
+                { id: 2, name: "Jordan", interests: "Gaming, Music" },
+            ];
+
+            matches.forEach(match => {
+                const matchEntry = document.createElement('div');
+                matchEntry.innerHTML = `
+                    <div>
+                        <h3>${match.name}</h3>
+                        <p>Interests: ${match.interests}</p>
+                    </div>
+                `;
+                matchesList.appendChild(matchEntry);
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+

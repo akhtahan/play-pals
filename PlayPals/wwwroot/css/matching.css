@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.matches-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #333;
+}
+
+#browseMatches {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+#matchesList {
+    margin-top: 20px;
+}
+
+.match-entry {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.match-info h3 {
+    margin: 0;
+    color: #333;
+}
+
+.match-info p {
+    margin: 0;
+    color: #666;
+}
+
+.match-actions button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.like-btn {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+}
+
+.skip-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+}
