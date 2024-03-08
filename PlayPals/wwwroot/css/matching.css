@@ -2,6 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('../images/hearts.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
 }
 
 .container {
@@ -15,16 +19,28 @@ body {
 }
 
 h2 {
+    text-align: center;
+    font-size: 4rem;
     color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
 }
 
 #browseMatches {
-    background-color: #3498db;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
     color: #fff;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 1rem 3rem;
     cursor: pointer;
+    font-size: 1.8rem;
+    transition: background 0.3s ease;
     border: none;
+}
+
+#browseMatches:hover {
+    background: rgb(251, 131, 151);
 }
 
 #matchesList {
@@ -32,8 +48,8 @@ h2 {
 }
 
 .match-entry {
-    border: 1px solid #ddd;
-    padding: 10px;
+    border: none;
+    padding: 5px;
     margin-bottom: 10px;
 }
 
@@ -48,19 +64,26 @@ h2 {
 }
 
 .match-actions button {
-    margin-top: 5px;
-    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: none;
+    color: #333;
+    padding: 0.5rem 1.5rem;
     cursor: pointer;
+    font-size: 1.4rem;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.match-actions button:hover {
+    transform: translateY(-3px);
 }
 
 .like-btn {
-    background-color: #27ae60;
-    color: #fff;
-    border: none;
+    color: #27ae60;
 }
 
 .skip-btn {
-    background-color: #e74c3c;
-    color: #fff;
-    border: none;
+    color: #e74c3c;
 }
