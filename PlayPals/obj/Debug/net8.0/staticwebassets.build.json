@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xta/IeXRhXSmYohhgPG+fAk8MMAkHhlnUuVH143Te6I=",
+  "Hash": "YHuR8VK55oe2Hk1K5jTLOnlh1M20kno7PTKyEq7/DmQ=",
   "Source": "PlayPals",
   "BasePath": "_content/PlayPals",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PlayPals/wwwroot",
       "Source": "PlayPals",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/obj/Debug/net8.0/scopedcss/bundle/PlayPals.styles.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/obj/Debug/net8.0/scopedcss/bundle/PlayPals.styles.css",
       "SourceId": "PlayPals",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "PlayPals.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/obj/Debug/net8.0/scopedcss/bundle/PlayPals.styles.css"
+      "OriginalItemSpec": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/obj/Debug/net8.0/scopedcss/bundle/PlayPals.styles.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/obj/Debug/net8.0/scopedcss/projectbundle/PlayPals.bundle.scp.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/obj/Debug/net8.0/scopedcss/projectbundle/PlayPals.bundle.scp.css",
       "SourceId": "PlayPals",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "PlayPals.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/obj/Debug/net8.0/scopedcss/projectbundle/PlayPals.bundle.scp.css"
+      "OriginalItemSpec": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/obj/Debug/net8.0/scopedcss/projectbundle/PlayPals.bundle.scp.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/css/login.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/css/login.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -74,10 +74,29 @@
       "OriginalItemSpec": "wwwroot/css/login.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/css/signup.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/css/profilesetup.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
+      "BasePath": "_content/PlayPals",
+      "RelativePath": "css/profilesetup.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/profilesetup.css"
+    },
+    {
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/css/signup.css",
+      "SourceId": "PlayPals",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "css/signup.css",
       "AssetKind": "All",
@@ -93,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/css/signup.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/css/site.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/css/site.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/favicon.ico",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/favicon.ico",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/Images/arrow.png",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/arrow.png",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "Images/arrow.png",
       "AssetKind": "All",
@@ -150,10 +169,29 @@
       "OriginalItemSpec": "wwwroot/Images/arrow.png"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/Images/ele.png",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/cow.png",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
+      "BasePath": "_content/PlayPals",
+      "RelativePath": "Images/cow.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/cow.png"
+    },
+    {
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/ele.png",
+      "SourceId": "PlayPals",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "Images/ele.png",
       "AssetKind": "All",
@@ -169,10 +207,10 @@
       "OriginalItemSpec": "wwwroot/Images/ele.png"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/Images/ele2.png",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/ele2.png",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "Images/ele2.png",
       "AssetKind": "All",
@@ -188,10 +226,10 @@
       "OriginalItemSpec": "wwwroot/Images/ele2.png"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/Images/elephant.png",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/elephant.png",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "Images/elephant.png",
       "AssetKind": "All",
@@ -207,10 +245,10 @@
       "OriginalItemSpec": "wwwroot/Images/elephant.png"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/Images/elephantwarrow.png",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/elephantwarrow.png",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "Images/elephantwarrow.png",
       "AssetKind": "All",
@@ -226,10 +264,29 @@
       "OriginalItemSpec": "wwwroot/Images/elephantwarrow.png"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/Images/logotext.png",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/giraffe.png",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
+      "BasePath": "_content/PlayPals",
+      "RelativePath": "Images/giraffe.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/giraffe.png"
+    },
+    {
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/logotext.png",
+      "SourceId": "PlayPals",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "Images/logotext.png",
       "AssetKind": "All",
@@ -245,10 +302,10 @@
       "OriginalItemSpec": "wwwroot/Images/logotext.png"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/Images/playpalslogo.png",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/playpalslogo.png",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "Images/playpalslogo.png",
       "AssetKind": "All",
@@ -264,10 +321,10 @@
       "OriginalItemSpec": "wwwroot/Images/playpalslogo.png"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/Images/reallogo.png",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/reallogo.png",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "Images/reallogo.png",
       "AssetKind": "All",
@@ -283,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/Images/reallogo.png"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/Images/two.png",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/two.png",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "Images/two.png",
       "AssetKind": "All",
@@ -302,10 +359,10 @@
       "OriginalItemSpec": "wwwroot/Images/two.png"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/js/site.js",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/js/site.js",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -321,10 +378,10 @@
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -340,10 +397,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -359,10 +416,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -378,10 +435,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -397,10 +454,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -416,10 +473,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -435,10 +492,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -454,10 +511,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -473,10 +530,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -492,10 +549,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -511,10 +568,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -530,10 +587,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -549,10 +606,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -568,10 +625,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -587,10 +644,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -606,10 +663,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -625,10 +682,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -644,10 +701,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -663,10 +720,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -682,10 +739,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -701,10 +758,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -720,10 +777,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -739,10 +796,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -758,10 +815,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -777,10 +834,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -796,10 +853,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -815,10 +872,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -834,10 +891,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -853,10 +910,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -872,10 +929,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -891,10 +948,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -910,10 +967,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -929,10 +986,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -948,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -967,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -986,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1005,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1024,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1043,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1062,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1081,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1100,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1119,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1138,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1157,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1176,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1195,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1214,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1233,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1252,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1271,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1290,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1309,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1328,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1347,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1366,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1385,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/wwwroot/",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
       "BasePath": "_content/PlayPals",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/iqramanzoor/.nuget/packages/": {}
+    "/Users/ariannafoo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/PlayPals.csproj",
+      "projectUniqueName": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/PlayPals.csproj",
       "projectName": "PlayPals",
-      "projectPath": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/PlayPals.csproj",
-      "packagesPath": "/Users/iqramanzoor/.nuget/packages/",
-      "outputPath": "/Users/iqramanzoor/Desktop/Software Engineering/PlayPalsProject/PlayPals/obj/",
+      "projectPath": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/PlayPals.csproj",
+      "packagesPath": "/Users/ariannafoo/.nuget/packages/",
+      "outputPath": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/iqramanzoor/.nuget/NuGet/NuGet.Config"
+        "/Users/ariannafoo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
