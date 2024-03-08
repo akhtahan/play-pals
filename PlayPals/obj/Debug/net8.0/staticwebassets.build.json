@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6FbUl9Nj9LTY41xBxX3X7SBSB9DESUOjGyscnaLwrC4=",
+  "Hash": "BqHVD64dSGZ5Y9sxcdXo8DS3CcOI5PFPijz3/EEbvIc=",
   "Source": "PlayPals",
   "BasePath": "_content/PlayPals",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/obj/Debug/net8.0/scopedcss/projectbundle/PlayPals.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/css/activities.css",
+      "SourceId": "PlayPals",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
+      "BasePath": "_content/PlayPals",
+      "RelativePath": "css/activities.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/activities.css"
     },
     {
       "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/css/home.css",

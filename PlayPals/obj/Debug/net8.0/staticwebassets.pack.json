@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets/Images/two.png"
     },
     {
+      "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/css/activities.css",
+      "PackagePath": "staticwebassets/css/activities.css"
+    },
+    {
       "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/css/home.css",
       "PackagePath": "staticwebassets/css/home.css"
     },
