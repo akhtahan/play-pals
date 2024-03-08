@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlayPals")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77b348df50a73745ac027125e9d98b7cc9c72979")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+972e9adcc7ea2c729671c2e4aa2bec4afb2b8c02")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlayPals")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlayPals")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

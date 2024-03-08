@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YHuR8VK55oe2Hk1K5jTLOnlh1M20kno7PTKyEq7/DmQ=",
+  "Hash": "oXr0GE2gALcpLiYXJqKsEEZkSTQp4cXcchH0/WMsyRM=",
   "Source": "PlayPals",
   "BasePath": "_content/PlayPals",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/obj/Debug/net8.0/scopedcss/projectbundle/PlayPals.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/css/home.css",
+      "SourceId": "PlayPals",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
+      "BasePath": "_content/PlayPals",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/home.css"
     },
     {
       "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/css/login.css",
@@ -281,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Images/giraffe.png"
+    },
+    {
+      "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/home-bg.jpg",
+      "SourceId": "PlayPals",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/",
+      "BasePath": "_content/PlayPals",
+      "RelativePath": "Images/home-bg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/home-bg.jpg"
     },
     {
       "Identity": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/logotext.png",
