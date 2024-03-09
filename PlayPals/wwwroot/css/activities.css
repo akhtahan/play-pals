@@ -49,6 +49,7 @@ section{
     position: relative;    
 }
 
+
 .products .box-container .box .image{
     position: relative;
     text-align: center;
@@ -108,11 +109,4 @@ section{
     color:var(--pink);
     font-weight: bolder;
     padding-top: 1rem;
-}
-
-.products .box-container .box .content .price span{
-    font-size: 1.5rem;
-    color:#999;
-    font-weight: lighter;
-    text-decoration: line-through;
 }
