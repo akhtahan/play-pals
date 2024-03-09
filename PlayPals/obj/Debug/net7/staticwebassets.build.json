@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Rhk0oqhezJXBhObY4gC53uK2rI0eHk0QFCqgimXs6yk=",
+  "Hash": "r8BrrvgiElgO7v75JnD4sdL+R+SwIet4hd89XBxTLdg=",
   "Source": "PlayPals",
   "BasePath": "_content/PlayPals",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/css/chat.css",
+      "SourceId": "PlayPals",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/",
+      "BasePath": "_content/PlayPals",
+      "RelativePath": "css/chat.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/chat.css"
     },
     {
       "Identity": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/css/home.css",
@@ -255,6 +272,23 @@
       "OriginalItemSpec": "wwwroot/Images/arrow.png"
     },
     {
+      "Identity": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/Images/baloons.jpg",
+      "SourceId": "PlayPals",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/",
+      "BasePath": "_content/PlayPals",
+      "RelativePath": "Images/baloons.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/baloons.jpg"
+    },
+    {
       "Identity": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/Images/cow.png",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
@@ -357,6 +391,23 @@
       "OriginalItemSpec": "wwwroot/Images/giraffe.png"
     },
     {
+      "Identity": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/Images/hearts.jpg",
+      "SourceId": "PlayPals",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/",
+      "BasePath": "_content/PlayPals",
+      "RelativePath": "Images/hearts.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/hearts.jpg"
+    },
+    {
       "Identity": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/Images/home-bg.jpg",
       "SourceId": "PlayPals",
       "SourceType": "Discovered",
@@ -389,6 +440,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Images/logotext.png"
+    },
+    {
+      "Identity": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/Images/pink_background.jpg",
+      "SourceId": "PlayPals",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/",
+      "BasePath": "_content/PlayPals",
+      "RelativePath": "Images/pink_background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/pink_background.jpg"
     },
     {
       "Identity": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/Images/playingkids.jpeg",

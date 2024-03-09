@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets/Images/arrow.png"
     },
     {
+      "Id": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/Images/baloons.jpg",
+      "PackagePath": "staticwebassets/Images/baloons.jpg"
+    },
+    {
       "Id": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/Images/cow.png",
       "PackagePath": "staticwebassets/Images/cow.png"
     },
@@ -49,12 +53,20 @@
       "PackagePath": "staticwebassets/Images/giraffe.png"
     },
     {
+      "Id": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/Images/hearts.jpg",
+      "PackagePath": "staticwebassets/Images/hearts.jpg"
+    },
+    {
       "Id": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/Images/home-bg.jpg",
       "PackagePath": "staticwebassets/Images/home-bg.jpg"
     },
     {
       "Id": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/Images/logotext.png",
       "PackagePath": "staticwebassets/Images/logotext.png"
+    },
+    {
+      "Id": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/Images/pink_background.jpg",
+      "PackagePath": "staticwebassets/Images/pink_background.jpg"
     },
     {
       "Id": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/Images/playingkids.jpeg",
@@ -71,6 +83,10 @@
     {
       "Id": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/Images/two.png",
       "PackagePath": "staticwebassets/Images/two.png"
+    },
+    {
+      "Id": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/css/chat.css",
+      "PackagePath": "staticwebassets/css/chat.css"
     },
     {
       "Id": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/wwwroot/css/home.css",

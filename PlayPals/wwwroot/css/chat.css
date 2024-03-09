@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../images/cryingkid.jpg') center/cover no-repeat; /* Replace 'path/to/your/background-image.jpg' with the actual path to your image */
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.contacts-list {
+    width: 50%; /* Set the width to 50% for half of the page */
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacts-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contacts-list li {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contacts-list li:hover {
+    background-color: #e0e0e0;
+}
+
+.chat-container {
+    width: 50%; /* Set the width to 50% for half of the page */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.chat {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.message {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.message-input {
+    display: flex;
+    margin-top: 20px;
+}
+
+#messageInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
