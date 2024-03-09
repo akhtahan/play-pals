@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets/PlayPals.bundle.scp.css"
     },
     {
+      "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/aerosports.jpeg",
+      "PackagePath": "staticwebassets/Images/aerosports.jpeg"
+    },
+    {
       "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/animals.jpeg",
       "PackagePath": "staticwebassets/Images/animals.jpeg"
     },
     {
       "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/animals2.jpg",
       "PackagePath": "staticwebassets/Images/animals2.jpg"
+    },
+    {
+      "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/arcade.jpeg",
+      "PackagePath": "staticwebassets/Images/arcade.jpeg"
     },
     {
       "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/arrow.png",
@@ -45,8 +53,16 @@
       "PackagePath": "staticwebassets/Images/home-bg.jpg"
     },
     {
+      "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/junglegym.jpeg",
+      "PackagePath": "staticwebassets/Images/junglegym.jpeg"
+    },
+    {
       "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/logotext.png",
       "PackagePath": "staticwebassets/Images/logotext.png"
+    },
+    {
+      "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/park.jpeg",
+      "PackagePath": "staticwebassets/Images/park.jpeg"
     },
     {
       "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/playingkids.jpeg",
@@ -57,12 +73,32 @@
       "PackagePath": "staticwebassets/Images/playpalslogo.png"
     },
     {
+      "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/pool.jpeg",
+      "PackagePath": "staticwebassets/Images/pool.jpeg"
+    },
+    {
+      "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/reading.jpeg",
+      "PackagePath": "staticwebassets/Images/reading.jpeg"
+    },
+    {
       "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/reallogo.png",
       "PackagePath": "staticwebassets/Images/reallogo.png"
     },
     {
+      "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/rockclimbing.jpeg",
+      "PackagePath": "staticwebassets/Images/rockclimbing.jpeg"
+    },
+    {
+      "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/scavengerhunt.jpeg",
+      "PackagePath": "staticwebassets/Images/scavengerhunt.jpeg"
+    },
+    {
       "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/two.png",
       "PackagePath": "staticwebassets/Images/two.png"
+    },
+    {
+      "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/Images/waterpark.webp",
+      "PackagePath": "staticwebassets/Images/waterpark.webp"
     },
     {
       "Id": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/wwwroot/css/activities.css",

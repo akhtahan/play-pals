@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WX9qvBu2zB+wtMKA9ANDze7cvhaOAFnJa0YO1SqcUBeQFfu7Mym/hKkZgBupsyWKWcIVebNd7Pl1iPQMr0Njcw==",
+  "dgSpecHash": "RRDTqqEuXntcYJdTpZHs6ScIbWbiTKbZI4yd+bBeHARdYPaYu7ZGRrV2a5iPquQGibTG2Ew7OOSiWsiDLlIRIw==",
   "success": true,
   "projectFilePath": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/PlayPals.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/ariannafoo/.nuget/packages/microsoft.netcore.app.ref/7.0.15/microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "/Users/ariannafoo/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.15/microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
+    "/Users/ariannafoo/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.15/microsoft.netcore.app.host.osx-arm64.7.0.15.nupkg.sha512"
+  ],
   "logs": []
 }

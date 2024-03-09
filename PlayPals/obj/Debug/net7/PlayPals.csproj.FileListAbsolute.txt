@@ -1,0 +1,34 @@
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/bin/Debug/net7/appsettings.Development.json
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/bin/Debug/net7/appsettings.json
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/bin/Debug/net7/PlayPals.staticwebassets.runtime.json
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/bin/Debug/net7/PlayPals
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/bin/Debug/net7/PlayPals.deps.json
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/bin/Debug/net7/PlayPals.runtimeconfig.json
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/bin/Debug/net7/PlayPals.dll
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/bin/Debug/net7/PlayPals.pdb
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/PlayPals.csproj.AssemblyReference.cache
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/PlayPals.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/PlayPals.AssemblyInfoInputs.cache
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/PlayPals.AssemblyInfo.cs
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/PlayPals.csproj.CoreCompileInputs.cache
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/PlayPals.MvcApplicationPartsAssemblyInfo.cache
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/PlayPals.RazorAssemblyInfo.cache
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/PlayPals.RazorAssemblyInfo.cs
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/staticwebassets/msbuild.PlayPals.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/staticwebassets/msbuild.build.PlayPals.props
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/staticwebassets/msbuild.buildMultiTargeting.PlayPals.props
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/staticwebassets/msbuild.buildTransitive.PlayPals.props
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/staticwebassets.pack.json
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/staticwebassets.build.json
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/staticwebassets.development.json
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/scopedcss/bundle/PlayPals.styles.css
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/scopedcss/projectbundle/PlayPals.bundle.scp.css
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/PlayPals.dll
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/refint/PlayPals.dll
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/PlayPals.pdb
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/PlayPals.genruntimeconfig.cache
+/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/Debug/net7/ref/PlayPals.dll
+/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/obj/Debug/net7/PlayPals.dll
+/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/obj/Debug/net7/refint/PlayPals.dll
+/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/obj/Debug/net7/PlayPals.pdb
