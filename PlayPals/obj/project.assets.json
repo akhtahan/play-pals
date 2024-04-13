@@ -8,24 +8,26 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/ariannafoo/.nuget/packages/": {}
+    "/Users/tharushi/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/PlayPals.csproj",
+      "projectUniqueName": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/PlayPals.csproj",
       "projectName": "PlayPals",
-      "projectPath": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/PlayPals.csproj",
-      "packagesPath": "/Users/ariannafoo/.nuget/packages/",
-      "outputPath": "/Users/ariannafoo/Documents/COURSES/Software Engineering/play-pals/PlayPals/obj/",
+      "projectPath": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/PlayPals.csproj",
+      "packagesPath": "/Users/tharushi/.nuget/packages/",
+      "outputPath": "/Users/tharushi/Desktop/CS/Winter'24/Software Engineering/SE Project Inception Realease/play-pals/PlayPals/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ariannafoo/.nuget/NuGet/NuGet.Config"
+        "/Users/tharushi/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -54,20 +56,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.15, 7.0.15]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[7.0.15, 7.0.15]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.15, 7.0.15]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -76,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
       }
     }
   }
