@@ -13,6 +13,6 @@ namespace PlayPals.Models
 
         public string Email { get; set; }
 
-        public List<string> Interests { get; set; }
+        public string Interest { get; set; }
     }
 }
