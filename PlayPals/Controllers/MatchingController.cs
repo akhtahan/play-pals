@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using PlayPals.Models;
 using PlayPals.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace PlayPals.Controllers
 {
@@ -16,9 +17,9 @@ namespace PlayPals.Controllers
         private PlayPalsDB _db = new PlayPalsDB();
         private readonly UserManager<User> _userManager;
 
-        private async Task<int> GetCurrentUserId()
+        private int GetCurrentUserId()
         {
-            var currentUser = await _userManager.GetUserAsync(HttpContext.User);
+            var currentUser = _userManager.GetUserAsync(HttpContext.User);
             return currentUser?.Id ?? 0;
         }
 
@@ -30,7 +31,7 @@ namespace PlayPals.Controllers
             int currentUserId = GetCurrentUserId();
 
             // Retrieve potential matches for the current user
-            var matches = await _context.Matches
+            var matches = await _db.Matches
                 .Where(m => m.UserId == currentUserId && !m.IsLiked)
                 .Select(m => m.MatchedUser)
                 .ToListAsync();
@@ -46,7 +47,7 @@ namespace PlayPals.Controllers
             int currentUserId = GetCurrentUserId();
 
             // Find the match record
-            var match = await _context.Matches.FindAsync(currentUserId, matchId);
+            var match = await _db.Matches.FindAsync(currentUserId, matchId);
             if (match == null)
             {
                 return NotFound();
@@ -54,7 +55,7 @@ namespace PlayPals.Controllers
 
             // Update the match record to indicate a like
             match.IsLiked = true;
-            await _context.SaveChangesAsync();
+            await _db.SaveChangesAsync();
 
             return Ok();
         }
@@ -67,15 +68,15 @@ namespace PlayPals.Controllers
             int currentUserId = GetCurrentUserId();
 
             // Find the match record
-            var match = await _context.Matches.FindAsync(currentUserId, matchId);
+            var match = await _db.Matches.FindAsync(currentUserId, matchId);
             if (match == null)
             {
                 return NotFound();
             }
 
             // Remove the match record from the database
-            _context.Matches.Remove(match);
-            await _context.SaveChangesAsync();
+            _db.Matches.Remove(match);
+            await _db.SaveChangesAsync();
 
             return Ok();
         }
