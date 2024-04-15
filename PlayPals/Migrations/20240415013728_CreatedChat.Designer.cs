@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PlayPals.Services;
 
@@ -10,9 +11,11 @@ using PlayPals.Services;
 namespace PlayPals.Migrations
 {
     [DbContext(typeof(PlayPalsDB))]
-    partial class PlayPalsDBModelSnapshot : ModelSnapshot
+    [Migration("20240415013728_CreatedChat")]
+    partial class CreatedChat
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.0");
