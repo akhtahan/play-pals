@@ -11,6 +11,8 @@ namespace PlayPals.Services
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Match> Matches { get; set; }
+        public DbSet<Chat> Chats { get; set; }
+        public DbSet<Message> Messages { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Filename=PlayPals.db");

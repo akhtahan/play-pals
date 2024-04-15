@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PlayPals.Services
 {
-    public interface IMatchingService
+    public interface MatchingService
     {
         IEnumerable<User> GetPotentialMatches(int userId);
         void LikeMatch(int userId, int matchId);
