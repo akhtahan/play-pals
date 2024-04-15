@@ -1,5 +1,14 @@
+@model IEnumerable<PlayPals.Models.User>
+
 @{
-    ViewData["Title"] = "Matching Page";
+    ViewData["Title"] = "Browse Match";
+    var matches = new List<User>
+    {
+        new User { Id = 1, Name = "Alex", Age = 25 },
+        new User { Id = 2, Name = "Jordan", Age = 28 },
+        new User { Id = 3, Name = "Emily", Age = 22 },
+        new User { Id = 4, Name = "Michael", Age = 30 }
+    };
 }
 
 <!DOCTYPE html>
@@ -7,60 +16,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matching Page</title>
     <link rel="stylesheet" href="/css/matching.css">
+    <title>@ViewData["Title"] Browse Match</title>
 </head>
 <body>
-    <div class="container">
-        <div class="matches-container">
-            <h2>Find Your Friend</h2>
-            <button id="browseMatches">Browse Matches</button>
-            <div id="matchesList" class="matches-list"></div>
-        </div>
+
+<div class="container">
+    <h1>Find your match</h1>
+    <button id="browseMatches">Browse</button>
+    <div id="matchesContainer" style="display: none;">
+        <ul>
+            @foreach (var match in matches)
+            {
+                <li>
+                    <h3>@match.Name</h3>
+                    <p>Age: @match.Age</p>
+                    <button class="like-btn" onclick="likeMatch(@match.Id)">👍🏻</button>
+                    <button class="skip-btn" onclick="skipMatch(@match.Id)">⏭️</button>
+                </li>
+            }
+        </ul>
     </div>
-
-    <script>
-    document.getElementById('browseMatches').addEventListener('click', function() {
-        const matchesList = document.getElementById('matchesList');
-        matchesList.innerHTML = ''; 
-
-        // Example temperary matches data
-        const matches = [
-            { id: 1, name: "Alex", interests: "Hiking, Reading" },
-            { id: 2, name: "Jordan", interests: "Gaming, Music" },
-        ];
-
-        matches.forEach(match => {
-            const matchEntry = document.createElement('div');
-            matchEntry.classList.add('match-entry');
-            matchEntry.innerHTML = `
-                <div class="match-info">
-                    <h3>${match.name}</h3>
-                    <p>Interests: ${match.interests}</p>
-                </div>
-                <div class="match-actions">
-                    <button class="like-btn" onclick="likeMatch(${match.id})">👍🏻</button>
-                    <button class="skip-btn" onclick="skipMatch(${match.id})">⏭️</button>
-                </div>
-            `;
-            matchesList.appendChild(matchEntry);
-        });
-    });
-
-    function likeMatch(matchId) {
-        console.log(`Liked match with ID: ${matchId}`);
-        // Placeholder for like action
-    }
-
-    function skipMatch(matchId) {
-        console.log(`Skipped match with ID: ${matchId}`);
-        // Placeholder for skip action
-    }
-</script>
-
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 </html>
 
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#matchesContainer').hide();
+            $('#browseMatches').click(function () {
+                $('#matchesContainer').show();
+            });
+        });
 
+        function likeMatch(matchId) {
+            $.ajax({
+                url: '/Matching/LikeMatch',
+                type: 'POST',
+                data: { matchId: matchId },
+                success: function (response) {
+                    console.log('Match liked successfully');
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error liking match:', error);
+                    // Handle the error case
+                }
+            });
+        }
 
-
+        function skipMatch(matchId) {
+            $.ajax({
+                url: '/Matching/DislikeMatch',
+                type: 'POST',
+                data: { matchId: matchId },
+                success: function (response) {
+                    console.log('Match skipped successfully');
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error skipping match:', error);
+                    // Handle the error case
+                }
+            });
+        }
+    </script>
+}

@@ -1,5 +1,12 @@
 @{
     ViewData["Title"] = "Chat Box";
+    var matches = new List<User>
+    {
+        new User { Id = 1, Name = "Alex", Age = 25 },
+        new User { Id = 2, Name = "Jordan", Age = 28 },
+        new User { Id = 3, Name = "Emily", Age = 22 },
+        new User { Id = 4, Name = "Michael", Age = 30 }
+    };
 }
 
 <!DOCTYPE html>
@@ -13,10 +20,11 @@
 <body>
     <div class="container">
         <div class="contacts-list">
-            <!-- Temperory list of contacts goes here -->
             <ul id="contactList">
-                <li onclick="showChat('John')">John</li>
-                <li onclick="showChat('Jane')">Jane</li>
+                @foreach (var match in matches)
+                {
+                    <li onclick="showChat('@match.Name')">@match.Name</li>
+                }
             </ul>
         </div>
         <div class="chat-container">
@@ -33,36 +41,77 @@
         </div>
     </div>
 
-    <script>
-        function showChat(contactName) {
-            const chatContainer = document.getElementById('chatContainer');
-            const selectedContactElement = document.getElementById('selectedContact');
+    @section Scripts {
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            let selectedContact = null;
 
-            chatContainer.innerHTML = '';
+            $(document).ready(function () {
+                updateChatbox();
+            });
 
-            selectedContactElement.textContent = `Chat with ${contactName}`;
-
-            const initialMessage = document.createElement('div');
-            initialMessage.classList.add('message');
-            initialMessage.textContent = `Start chatting with ${contactName}!`;
-            chatContainer.appendChild(initialMessage);
-        }
-
-        function sendMessage() {
-            const messageInput = document.getElementById('messageInput');
-            const messageText = messageInput.value.trim();
-
-            if (messageText !== '') {
-                const messageElement = document.createElement('div');
-                messageElement.classList.add('message');
-                messageElement.textContent = messageText;
-
-                const chatContainer = document.getElementById('chatContainer');
-                chatContainer.appendChild(messageElement);
-
-                messageInput.value = '';
+            function showChat(contactName) {
+                selectedContact = contactName;
+                $('#selectedContact').text(`Chatting with ${contactName}`);
             }
-        }
-    </script>
+
+            function sendMessage() {
+                if (selectedContact) {
+                    const messageInput = $('#messageInput');
+                    const message = messageInput.val().trim();
+
+                    if (message) {
+                        const chatContainer = $('#chatContainer');
+                        const messageElement = $('<div>').text(`You: ${message}`);
+                        chatContainer.append(messageElement);
+                        messageInput.val('');
+                    }
+                } else {
+                    alert('Please select a contact to chat with.');
+                }
+            }
+
+            function likeMatch(matchId) {
+                $.ajax({
+                    url: '/Matching/LikeMatch',
+                    type: 'POST',
+                    data: { matchId: matchId },
+                    success: function (likedMatches) {
+                        console.log('Match liked successfully');
+                        updateChatbox(likedMatches);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error liking match:', error);
+                    }
+                });
+            }
+
+            function skipMatch(matchId) {
+                $.ajax({
+                    url: '/Matching/DislikeMatch',
+                    type: 'POST',
+                    data: { matchId: matchId },
+                    success: function (likedMatches) {
+                        console.log('Match skipped successfully');
+                        updateChatbox(likedMatches);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error skipping match:', error);
+                    }
+                });
+            }
+
+            function updateChatbox(likedMatches) {
+                // Clear the existing chatbox content
+                $('#chatbox').empty();
+
+                // Iterate over the liked matches and add them to the chatbox
+                $.each(likedMatches, function (index, match) {
+                    var matchElement = $('<div>').text(match.name);
+                    $('#chatbox').append(matchElement);
+                });
+            }
+        </script>
+    }
 </body>
 </html>

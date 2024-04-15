@@ -1,18 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: 18px; 
+    font-size: 18px;
     margin: 0;
     padding: 0;
     background-image: url('../images/hearts.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 80px;
+    text-align: center;
 }
 
 .matches-container {
@@ -21,11 +23,10 @@ body {
 }
 
 h2 {
-    text-align: center;
-    font-size: 5rem; 
+    font-size: 5rem;
     color: #333;
     padding: 1rem;
-    margin: 2rem 0;
+    margin: 6rem 0 4rem; /* Increased bottom margin */
 }
 
 #browseMatches {
@@ -34,9 +35,9 @@ h2 {
     border-radius: 5rem;
     background: #333;
     color: #fff;
-    padding: 1.2rem 3.6rem; 
+    padding: 1.2rem 3.6rem;
     cursor: pointer;
-    font-size: 2.2rem; 
+    font-size: 2.2rem;
     transition: background 0.3s ease;
     border: none;
 }
@@ -45,26 +46,36 @@ h2 {
     background: rgb(251, 131, 151);
 }
 
-#matchesList {
+.match-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 20px;
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    gap: 20px; /* Add space between list elements */
 }
 
 .match-entry {
     border: none;
-    padding: 5px;
-    margin-bottom: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
 }
 
 .match-info h3 {
     margin: 0;
     color: #333;
-    font-size: 2rem; 
+    font-size: 2rem;
 }
 
 .match-info p {
     margin: 0;
     color: #666;
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
 }
 
 .match-actions button {
@@ -73,21 +84,31 @@ h2 {
     border-radius: 5rem;
     background: none;
     color: #333;
-    padding: 0.6rem 1.8rem; 
+    padding: 0.6rem 1.8rem;
     cursor: pointer;
-    font-size: 1.6rem; 
+    font-size: 2rem; /* Increased font-size for buttons */
     border: none;
     transition: transform 0.3s ease;
 }
 
 .match-actions button:hover {
-    transform: translateY(-3px);
+    transform: translateY(-5px); /* Increased vertical movement on hover */
 }
 
 .like-btn {
     color: #27ae60;
+    font-size: 3rem; /* Increased font-size for like button */
+}
+
+.like-btn:hover {
+    transform: translateY(-5px) scale(1.2); /* Move and scale up on hover */
 }
 
 .skip-btn {
     color: #e74c3c;
+    font-size: 3rem; /* Increased font-size for skip button */
+}
+
+.skip-btn:hover {
+    transform: translateY(-5px) scale(1.2); /* Move and scale up on hover */
 }

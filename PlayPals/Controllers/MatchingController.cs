@@ -1,21 +1,27 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using PlayPals.Models;
-using PlayPals.Services;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 
 namespace PlayPals.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
-    public class MatchingController : ControllerBase
+    public class MatchingController : Controller
     {
-        private PlayPalsDB _db = new PlayPalsDB();
         private readonly UserManager<User> _userManager;
+        private static List<User> matches = new List<User>
+        {
+            new User { Id = 1, Name = "Alex", Age = 25 },
+            new User { Id = 2, Name = "Jordan", Age = 28 },
+            new User { Id = 3, Name = "Emily", Age = 22 },
+            new User { Id = 4, Name = "Michael", Age = 30 }
+        };
+        private static List<User> likedMatches = new List<User>();
+
+        public MatchingController(UserManager<User> userManager)
+        {
+            _userManager = userManager;
+        }
 
         private int GetCurrentUserId()
         {
@@ -25,61 +31,54 @@ namespace PlayPals.Controllers
 
         // GET: api/Matching/GetMatches
         [HttpGet("GetMatches")]
-        public async Task<IActionResult> GetMatches()
+        public IActionResult GetMatches()
         {
             // Get the current user's ID 
             int currentUserId = GetCurrentUserId();
-
-            // Retrieve potential matches for the current user
-            var matches = await _db.Matches
-                .Where(m => m.UserId == currentUserId && !m.IsLiked)
-                .Select(m => m.MatchedUser)
-                .ToListAsync();
 
             return Ok(matches);
         }
 
         // POST: api/Matching/LikeMatch
         [HttpPost("LikeMatch")]
-        public async Task<IActionResult> LikeMatch(int matchId)
+        public IActionResult LikeMatch(int matchId)
         {
-            // Get the current user's ID 
-            int currentUserId = GetCurrentUserId();
+            // Find the match in the hardcoded list
+            var match = matches.FirstOrDefault(m => m.Id == matchId);
 
-            // Find the match record
-            var match = await _db.Matches.FindAsync(currentUserId, matchId);
             if (match == null)
             {
                 return NotFound();
             }
 
-            // Update the match record to indicate a like
-            match.IsLiked = true;
-            await _db.SaveChangesAsync();
+            // Add the match to the list of liked matches
+            likedMatches.Add(match);
 
-            return Ok();
+            return Ok(likedMatches);
         }
 
         // POST: api/Matching/DislikeMatch
         [HttpPost("DislikeMatch")]
-        public async Task<IActionResult> DislikeMatch(int matchId)
+        public IActionResult DislikeMatch(int matchId)
         {
-            // Get the current user's ID 
-            int currentUserId = GetCurrentUserId();
+            // Find the match in the list of liked matches
+            var match = likedMatches.FirstOrDefault(m => m.Id == matchId);
 
-            // Find the match record
-            var match = await _db.Matches.FindAsync(currentUserId, matchId);
             if (match == null)
             {
                 return NotFound();
             }
 
-            // Remove the match record from the database
-            _db.Matches.Remove(match);
-            await _db.SaveChangesAsync();
+            // Remove the match from the list of liked matches
+            likedMatches.Remove(match);
 
-            return Ok();
+            return Ok(likedMatches);
         }
 
+        public IActionResult MatchingBrowser()
+        {
+            // Pass the matches as the model to the view
+            return View(matches);
+        }
     }
 }
